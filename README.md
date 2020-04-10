@@ -15,3 +15,4 @@ A personal approach for learning Backend Web Development with Kotlin.
 
 - [Zero day - Knowledge before starting](doc/progress/00.md)
 - [Session 1 - HelloWorld in IntelliJ](doc/progress/01.md)
+- [Session 2 - HelloWorld in the Command Line](doc/progress/02.md)
