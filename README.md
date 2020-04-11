@@ -1,6 +1,11 @@
 # Learn Kotlin
 
-A personal approach for learning Backend Web Development with Kotlin.
+A personal approach for learning Backend Development with Kotlin.
+
+## About the learning approach
+
+- Learn by doing
+- Iterative
 
 ## Topics I would like to cover
 
@@ -17,3 +22,8 @@ A personal approach for learning Backend Web Development with Kotlin.
 - [Session 1 - HelloWorld in IntelliJ](doc/progress/01.md)
 - [Session 2 - HelloWorld in the Command Line](doc/progress/02.md)
 - [Session 3 - My first Gradle build](doc/progress/03.md)
+
+## Milestones
+
+- [S1] Hello World in Kotlin
+
