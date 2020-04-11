@@ -10,10 +10,16 @@ plugins {
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
 
 dependencies {
     implementation(kotlin("stdlib"))
-    testImplementation("junit:junit:4.12")
+    testImplementation("io.kotlintest:kotlintest-core:3.2.1")
+    testImplementation("io.kotlintest:kotlintest-runner-junit5:3.4.2")
+    testImplementation("org.slf4j:slf4j-simple:1.7.30")
 }

@@ -23,6 +23,7 @@ A personal approach for learning Backend Development with Kotlin.
 - [Session 2 - HelloWorld in the Command Line](doc/progress/02.md)
 - [Session 3 - My first Gradle build](doc/progress/03.md)
 - [Session 4 - My first Kotlin test with JUnit](doc/progress/04.md)
+- [Session 5 - Kotlin test with kotlin-test](doc/progress/05.md)
 
 ## Milestones
 

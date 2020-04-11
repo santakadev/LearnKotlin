@@ -1,11 +1,18 @@
 package org.example
 
-import org.junit.Assert.assertEquals
-import org.junit.Test
+import io.kotlintest.specs.StringSpec
+import io.kotlintest.shouldBe
 
-class MyLibraryTest {
-    @Test fun testMyLanguage() {
-        assertEquals("Kotlin", MyLibrary().kotlinLanguage().name)
-        assertEquals(10, MyLibrary().kotlinLanguage().hotness)
+class MyLibraryTest : StringSpec() {
+
+    init {
+        "language name should be Kotlin" {
+            MyLibrary().kotlinLanguage().name shouldBe "Kotlin"
+        }
+
+        "language hotness should be 5" {
+            MyLibrary().kotlinLanguage().hotness shouldBe 10
+        }
     }
+
 }
