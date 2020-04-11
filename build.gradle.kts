@@ -6,21 +6,14 @@
  */
 
 plugins {
-    id("base")
+    kotlin("jvm") version "1.3.71"
 }
 
-tasks.create<Zip>("zip") {
-    description = "Archives sources in a zip file"
-    group = "Archive"
-
-    from("src")
-    setArchiveName("basic-demo-1.0.zip")
+repositories {
+    jcenter()
 }
 
-tasks.create<Copy>("copy") {
-    description = "Copies sources to the dest directory"
-    group = "Custom"
-
-    from("src")
-    into("dest")
+dependencies {
+    implementation(kotlin("stdlib"))
+    testImplementation("junit:junit:4.12")
 }
