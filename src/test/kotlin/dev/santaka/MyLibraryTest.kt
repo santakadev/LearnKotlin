@@ -1,4 +1,4 @@
-package org.example
+package dev.santaka
 
 import io.kotlintest.specs.StringSpec
 import io.kotlintest.shouldBe

@@ -24,6 +24,7 @@ A personal approach for learning Backend Development with Kotlin.
 - [Session 3 - My first Gradle build](doc/progress/03.md)
 - [Session 4 - My first Kotlin test with JUnit](doc/progress/04.md)
 - [Session 5 - Kotlin test with kotlin-test](doc/progress/05.md)
+- [Session 6 - Working with Kotlin basic types](doc/progress/06.md)
 
 ## Milestones
 

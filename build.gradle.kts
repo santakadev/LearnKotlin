@@ -4,6 +4,7 @@
  * This is a general purpose Gradle build.
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds
  */
+import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 plugins {
     kotlin("jvm") version "1.3.71"
@@ -15,6 +16,17 @@ repositories {
 
 tasks.test {
     useJUnitPlatform()
+
+    testLogging {
+        events = setOf(
+            TestLogEvent.STARTED,
+            TestLogEvent.PASSED,
+            TestLogEvent.FAILED
+        )
+        // show standard out and standard error of the test
+        // JVM(s) on the console
+        showStandardStreams = true
+    }
 }
 
 dependencies {
