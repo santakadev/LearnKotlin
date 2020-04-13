@@ -1,13 +1,14 @@
 package dev.santaka
 
-fun main() {
-//    val go = GameObject(10.0, 30.0)
-//    println(go.position)
-//    go.moveRight(10.0)
-//    println(go.position)
+import dev.santaka.ticket.CreateATicket
+import dev.santaka.ticket.adapter.TicketRepositoryInMemory
 
-    val character = Character(0.0, 0.0)
-    character.moveRight(Distance(10.0))
-    character.moveUp(Distance(15.0))
-    println(character.position)
+fun main() {
+    val tickets = TicketRepositoryInMemory()
+    val createATicket = CreateATicket(tickets)
+
+    createATicket(1, "this is a ticket")
+
+    val ticket = tickets.find(1)
+    println(ticket?.subject)
 }

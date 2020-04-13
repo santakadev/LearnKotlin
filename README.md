@@ -18,6 +18,8 @@ A personal approach for learning Backend Development with Kotlin.
 
 ## Progress
 
+**Total learning time:** 7h 30m
+
 - [Zero day - Knowledge before starting](doc/progress/00.md)
 - [Session 1 - HelloWorld in IntelliJ](doc/progress/01.md)
 - [Session 2 - HelloWorld in the Command Line](doc/progress/02.md)
@@ -27,8 +29,10 @@ A personal approach for learning Backend Development with Kotlin.
 - [Session 6 - Working with Kotlin basic types](doc/progress/06.md)
 - [Session 7 - Learning about Kotlin basic](doc/progress/07.md)
 - [Session 8 - Learning about classes and inheritance in Kotlin](doc/progress/08.md)
+- [Session 9 - My first Use Case in Kotlin](doc/progress/09.md)
 
 ## Milestones
 
 - [S1] Hello World in Kotlin.
 - [S4] My first Kotlin Unit Test.
+- [S9] My first Use Case in Kotlin.
