@@ -30,6 +30,7 @@ tasks.test {
 }
 
 dependencies {
+    implementation("mysql:mysql-connector-java:8.0.21")
     implementation(kotlin("stdlib"))
     testImplementation("io.kotlintest:kotlintest-core:3.2.1")
     testImplementation("io.kotlintest:kotlintest-runner-junit5:3.4.2")

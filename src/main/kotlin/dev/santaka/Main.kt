@@ -11,4 +11,6 @@ fun main() {
 
     val ticket = tickets.find(1)
     println(ticket?.subject)
+
+    ConnectToMySql().connect()
 }
